@@ -92,7 +92,7 @@ HTML, CSS, and Bootstrap.
 The app facilitates efficient restaurant discovery, enabling users to easily search for nearby dining options and order
 food for delivery.
 "
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink=""
               demoLink="https://foodxp.ccbp.tech/"     
             />
           </Col>
