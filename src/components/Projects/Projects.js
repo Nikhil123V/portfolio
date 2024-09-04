@@ -38,6 +38,7 @@ function Projects() {
                  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ShopDrop}
+              title="ShopDrop"
               isBlog={false}
               description="I developed ShopDrop, an online platform that offers a curated selection of authentic branded products at affordable prices. Using React.js, Tailwind CSS, and JavaScript, I created a user-friendly interface that allows customers to easily browse and purchase their desired items. My work on this project showcased my ability to build scalable and efficient web applications while delivering a seamless shopping experience."
               ghLink="https://github.com/Nikhil123V/ShopDrop"
