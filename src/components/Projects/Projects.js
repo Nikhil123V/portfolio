@@ -34,6 +34,7 @@ function Projects() {
               ghLink="https://github.com/Nikhil123V/ConnectHub"
               demoLink="https://connect-hub-jxr2.vercel.app/"
             />
+                 </Col>
                  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ShopDrop}
