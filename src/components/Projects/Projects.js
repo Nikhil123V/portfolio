@@ -8,6 +8,7 @@ import ImageAI from "../../Assets/Projects/p3.svg";
 import connecthub from "../../Assets/Projects/connecthub.svg";
 import ChatGaint from "../../Assets/Projects/pro1.png";
 import HooBank from "../../Assets/Projects/bank_app.png";
+import ShopDrop from "../../Assets/ShopDrop.png";
 
 function Projects() {
   return (
@@ -33,6 +34,15 @@ function Projects() {
               ghLink="https://github.com/Nikhil123V/ConnectHub"
               demoLink="https://connect-hub-jxr2.vercel.app/"
             />
+                 <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ShopDrop}
+              isBlog={false}
+              description="I developed ShopDrop, an online platform that offers a curated selection of authentic branded products at affordable prices. Using React.js, Tailwind CSS, and JavaScript, I created a user-friendly interface that allows customers to easily browse and purchase their desired items. My work on this project showcased my ability to build scalable and efficient web applications while delivering a seamless shopping experience."
+              ghLink="https://github.com/Nikhil123V/ShopDrop"
+              demoLink="https://shop-drop-j7zj.vercel.app/"
+            />
+                
           </Col>
 
           <Col md={4} className="project-card">
