@@ -9,6 +9,7 @@ import connecthub from "../../Assets/Projects/connecthub.svg";
 import ChatGaint from "../../Assets/Projects/pro1.png";
 import HooBank from "../../Assets/Projects/bank_app.png";
 import ShopDrop from "../../Assets/ShopDrop.png";
+import LiveDocs from "../../Assets/LiveDocs.png";
 
 function Projects() {
   return (
@@ -35,6 +36,29 @@ function Projects() {
               demoLink="https://connect-hub-jxr2.vercel.app/"
             />
                  </Col>
+                
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={LiveDocs}
+              isBlog={false}
+              title="LiveDocs"
+              description="LiveDocs, a real-time collaborative text editor, showcases the developer's proficiency in building interactive web applications. Leveraging the power of Next.js for UI, Liveblocks for real-time features, and Tailwind CSS for styling, LiveDocs offers a seamless Google Docs-like experience. With features like authentication, collaborative editing, document management, commenting, and notifications, users can efficiently work together on shared documents. The application's responsive design ensures a smooth experience across devices. Join the active Discord community for support and collaboration as you explore the potential of LiveDocs."
+              
+              ghLink="https://github.com/Nikhil123V/LiveDocs"
+              demoLink="/"
+            />
+                 </Col>
+                 <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ImageAI}
+              isBlog={false}
+              title="Ai Saas application"
+              description="Developed a robust AI-driven image transformation SaaS application. Leveraged Next.js, TypeScript, and Tailwind
+CSS to build a scalable and user-friendly platform. Implemented seamless image uploads, processing, and AIgenerated transformations using Cloudinary.
+Integrated Clerk for secure user authentication and management. Successfully deployed the application, demonstrating proficiency in full-stack development and AI integration."
+              ghLink="https://github.com/Nikhil123V/imagify"        
+            />
+          </Col>
                  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ShopDrop}
@@ -58,17 +82,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ImageAI}
-              isBlog={false}
-              title="Ai Saas application"
-              description="Developed a robust AI-driven image transformation SaaS application. Leveraged Next.js, TypeScript, and Tailwind
-CSS to build a scalable and user-friendly platform. Implemented seamless image uploads, processing, and AIgenerated transformations using Cloudinary.
-Integrated Clerk for secure user authentication and management. Successfully deployed the application, demonstrating proficiency in full-stack development and AI integration."
-              ghLink="https://github.com/Nikhil123V/imagify"        
-            />
-          </Col>
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
