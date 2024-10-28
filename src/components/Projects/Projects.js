@@ -10,7 +10,7 @@ import ChatGaint from "../../Assets/Projects/pro1.png";
 import HooBank from "../../Assets/Projects/bank_app.png";
 import ShopDrop from "../../Assets/ShopDrop.png";
 import LiveDocs from "../../Assets/LiveDocs.png";
-
+import event from "../../Assets/Projects/event.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
