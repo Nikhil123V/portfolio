@@ -48,6 +48,18 @@ function Projects() {
               demoLink="/"
             />
                  </Col>
+
+  <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={event}
+              isBlog={false}
+              title="Festivo"
+              description="Festivo is a web application built using Next.js, Tailwind CSS, and TypeScript. It enables users to list event tickets, including details such as location, price, and purchase options. Clerk ensures secure user authentication, while Stripe facilitates seamless payment processing."
+              ghLink="https://github.com/Nikhil123V/festivo"        
+            />
+          </Col>
+
+                
                  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ImageAI}
