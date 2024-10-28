@@ -55,7 +55,8 @@ function Projects() {
               isBlog={false}
               title="Festivo"
               description="Festivo is a web application built using Next.js, Tailwind CSS, and TypeScript. It enables users to list event tickets, including details such as location, price, and purchase options. Clerk ensures secure user authentication, while Stripe facilitates seamless payment processing."
-              ghLink="https://github.com/Nikhil123V/festivo"        
+              ghLink="https://github.com/Nikhil123V/festivo"   
+                demoLink="https://festivo-beige.vercel.app/"
             />
           </Col>
 
