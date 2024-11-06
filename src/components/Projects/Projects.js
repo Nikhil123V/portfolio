@@ -11,6 +11,8 @@ import HooBank from "../../Assets/Projects/bank_app.png";
 import ShopDrop from "../../Assets/ShopDrop.png";
 import LiveDocs from "../../Assets/LiveDocs.png";
 import event from "../../Assets/Projects/event.png";
+import uiux from "../../Assets/Projects/Screenshot 2024-11-07 015930.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -60,18 +62,24 @@ function Projects() {
             />
           </Col>
 
-                
-                 <Col md={4} className="project-card">
+
+
+
+                   <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ImageAI}
+              imgPath={uiux}
               isBlog={false}
-              title="Ai Saas application"
-              description="Developed a robust AI-driven image transformation SaaS application. Leveraged Next.js, TypeScript, and Tailwind
-CSS to build a scalable and user-friendly platform. Implemented seamless image uploads, processing, and AIgenerated transformations using Cloudinary.
-Integrated Clerk for secure user authentication and management. Successfully deployed the application, demonstrating proficiency in full-stack development and AI integration."
-              ghLink="https://github.com/Nikhil123V/imagify"        
+              title="Brainwave"
+              description="I developed a frontend UI/UX design for an AI-driven ChatGPT website using ReactJS, TailwindCSS, and Vite as the development stack. The design inspiration was sourced from UI8's design system. The project focused on creating a visually appealing and user-friendly interface, ensuring a seamless user experience."
+              ghLink="https://github.com/Nikhil123V/new_ui_ux-_design"   
+                demoLink="https://new-ui-ux-design.vercel.app/"
             />
           </Col>
+
+                  
+
+                
+                 
                  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ShopDrop}
@@ -92,6 +100,17 @@ Integrated Clerk for secure user authentication and management. Successfully dep
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink=""
               demoLink=""
+            />
+          </Col>
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ImageAI}
+              isBlog={false}
+              title="Ai Saas application"
+              description="Developed a robust AI-driven image transformation SaaS application. Leveraged Next.js, TypeScript, and Tailwind
+CSS to build a scalable and user-friendly platform. Implemented seamless image uploads, processing, and AIgenerated transformations using Cloudinary.
+Integrated Clerk for secure user authentication and management. Successfully deployed the application, demonstrating proficiency in full-stack development and AI integration."
+              ghLink="https://github.com/Nikhil123V/imagify"        
             />
           </Col>
 
