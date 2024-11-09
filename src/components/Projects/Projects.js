@@ -12,6 +12,7 @@ import ShopDrop from "../../Assets/ShopDrop.png";
 import LiveDocs from "../../Assets/LiveDocs.png";
 import event from "../../Assets/Projects/event.png";
 import uiux from "../../Assets/Projects/Screenshot 2024-11-07 015930.png";
+import heart from "../../Assets/Projects/heart.png";
 
 function Projects() {
   return (
@@ -152,6 +153,21 @@ food for delivery.
 "
               ghLink=""
               demoLink="https://foodxp.ccbp.tech/"     
+            />
+          </Col>
+
+
+
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={heart}
+              isBlog={false}
+              title="ML-Based Stroke Risk Prediction"
+              description="The primary objective of this project is to develop a predictive model that can accurately determine the presence of heart disease in patients based on a set of medical attributes. This model aims to assist in early diagnosis and potential intervention, improving patient outcomes and healthcare efficiency.
+
+The project involves analyzing the Heart Disease dataset from the UCI Machine Learning Repository using Python and Jupyter Notebook. The analysis will leverage libraries such as numpy and pandas for data manipulation, and sklearn.model_selection for splitting the dataset into training and test sets. Logistic Regression will be used to build a predictive model to determine the presence of heart disease based on various medical attributes."
+              ghLink=""
+              demoLink="/"     
             />
           </Col>
         </Row>
