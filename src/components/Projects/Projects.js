@@ -13,18 +13,26 @@ import LiveDocs from "../../Assets/LiveDocs.png";
 import event from "../../Assets/Projects/event.png";
 import uiux from "../../Assets/Projects/Screenshot 2024-11-07 015930.png";
 import heart from "../../Assets/Projects/heart.png";
+import mywork from "../../Assets/connecting20.svg";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+        h1 className="project-heading" style={{ display: "flex", alignItems: "center" }}>
+  <div style={{ flex: 1 }}>
+    My Recent <strong className="purple">Works</strong>
+    <p style={{ color: "white", margin: 0 }}>
+      Here are a few projects I've worked on recently.
+    </p>
+  </div>
+  <img 
+    src={mywork} 
+    alt="mywork" 
+    style={{ width: "50", height: "50", marginLeft: "10px" }} 
+  />
+</h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
