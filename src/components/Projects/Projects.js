@@ -20,7 +20,7 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        h1 className="project-heading" style={{ display: "flex", alignItems: "center" }}>
+        <h1 className="project-heading" style={{ display: "flex", alignItems: "center" }}>
   <div style={{ flex: 1 }}>
     My Recent <strong className="purple">Works</strong>
     <p style={{ color: "white", margin: 0 }}>
