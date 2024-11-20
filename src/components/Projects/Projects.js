@@ -14,7 +14,7 @@ import event from "../../Assets/Projects/event.png";
 import uiux from "../../Assets/Projects/Screenshot 2024-11-07 015930.png";
 import heart from "../../Assets/Projects/heart.png";
 import mywork from "../../Assets/connecting20.svg";
-
+import ideahub from "../../Assets/ideahub.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -57,6 +57,20 @@ function Projects() {
               
               ghLink="https://github.com/Nikhil123V/LiveDocs"
               demoLink="/"
+            />
+                 </Col>
+
+
+
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ideahub}
+              isBlog={false}
+              title="IdeaHub"
+              description=" Ideahub is a platform that enables individuals to share their startup ideas, receive feedback, and potentially secure funding. By showcasing their concepts on the Ideahub website, entrepreneurs can gain exposure to a wider audience, gather valuable insights, and attract potential investors."
+              
+              ghLink="hhttps://github.com/Nikhil123V/ideahub"
+              demoLink="https://ideahub-ten.vercel.app/"
             />
                  </Col>
 
