@@ -69,7 +69,7 @@ function Projects() {
               title="IdeaHub"
               description=" Ideahub is a platform that enables individuals to share their startup ideas, receive feedback, and potentially secure funding. By showcasing their concepts on the Ideahub website, entrepreneurs can gain exposure to a wider audience, gather valuable insights, and attract potential investors."
               
-              ghLink="hhttps://github.com/Nikhil123V/ideahub"
+              ghLink="https://github.com/Nikhil123V/ideahub"
               demoLink="https://ideahub-ten.vercel.app/"
             />
                  </Col>
